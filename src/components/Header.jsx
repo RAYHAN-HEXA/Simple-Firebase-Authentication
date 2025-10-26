@@ -3,10 +3,10 @@ import { NavLink } from 'react-router';
 
 const Header = () => {
           return (
-                    <div>
+                    <nav>
                          <NavLink to="/" >Home</NavLink> 
                          <NavLink  to="login" >Login</NavLink>
-                    </div>
+                    </nav>
           );
 };
 
